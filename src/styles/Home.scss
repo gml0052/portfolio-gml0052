@@ -1,0 +1,105 @@
+@import "../my-bootstrap/node_modules/bootstrap/scss/bootstrap-grid.scss";
+@import '../assets/fonts/stylesheet.css';
+
+.Art {
+    padding-right: 0px !important;
+}
+
+.Dates {
+    font-family: 'albaregular';
+}
+
+.Name {
+    font-family: 'alba_superregular';
+}
+
+.Info {
+    @include media-breakpoint-only(xs)  {
+        .Name {
+            position: relative;
+            padding-top: 16px;
+            padding-left:16px;
+            padding-right: 16px;
+            .display-3 {
+                font-size: 2.5rem !important;
+                font-weight: 500 !important;
+            }
+        }
+        .Dates {
+            display: none !important;
+        }
+    }
+
+    @include media-breakpoint-only(sm)  {
+        .Name {
+            position: relative;
+            padding-top: 16px;
+            padding-left:16px;
+            padding-right: 16px;
+        }
+        .Dates {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-only(md)  {
+        .Name {
+            position: relative;
+            padding-top: 16px;
+            padding-left:16px;
+            padding-right: 16px;
+        }
+        .Dates {
+            display: none;
+        }
+    }
+
+    @include media-breakpoint-only(lg)  {
+        .Name {
+            position: fixed;
+            padding-top:128px;
+            padding-left:32px;
+            max-width: 400px;
+            
+            .display-3 {
+                font-size: 3.75rem !important;
+                font-weight: 500 !important;
+            }
+        }
+        .Dates {
+            position: fixed;
+            margin-top: 320px;
+            margin-left: 64px;
+            border-right: 1px solid black;
+            padding-right: 32px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            margin-right: 32px !important;
+            display: block;
+        }
+    }
+    
+    @include media-breakpoint-only(xl)  {
+        .Name {
+            position: fixed;
+            padding-top:128px;
+            padding-left:32px;
+            max-width: 400px;
+            
+            .display-3 {
+                font-size: 4.6rem !important;
+                font-weight: 500 !important;
+            }
+        }
+        .Dates {
+            position: fixed;
+            top: 386px;
+            margin-left: 64px;
+            border-right: 1px solid black;
+            padding-right: 32px;
+            padding-top: 32px;
+            padding-bottom: 32px;
+            display: block;
+        }
+    }
+}

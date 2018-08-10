@@ -1,0 +1,20 @@
+.artwork {
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.artwork-card-img {
+    border-top-right-radius: 0px !important;    
+    border-top-left-radius: 0px !important;
+    -webkit-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.75);
+}
+
+.card {
+    background:none !important;
+    border-radius: 0px !important;
+    border: none !important;
+    display: inline-block;
+}
+
