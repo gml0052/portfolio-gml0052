@@ -25,7 +25,7 @@ yarn-error.log*
 src/**/*.css
 
 # assets
-src/assets
+src/assets/photos
 
 # my-bootstrap package
 src/my-bootstrap/node_modules
